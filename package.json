@@ -1,0 +1,30 @@
+{
+  "name": "nodejs-protobuf-socketio",
+  "version": "1.0.0",
+  "description": "An example of protobuf (Protocol Buffers) with socket.io",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "client": "nodemon client.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/radityaarya/nodejs-protobuf-socketio.git"
+  },
+  "keywords": [],
+  "author": "Raditya Arya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/radityaarya/nodejs-protobuf-socketio/issues"
+  },
+  "homepage": "https://github.com/radityaarya/nodejs-protobuf-socketio#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "google-protobuf": "^3.6.1",
+    "socket.io": "^2.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
